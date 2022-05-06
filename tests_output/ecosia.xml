@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="ecosia"
+    errors="1" failures="0" hostname="" id="" package="ecosia" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 101
+ Current browser version is 100.0.4896.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;C:\\Users\\hector.martin\\Desktop\\nightwatch-test-project\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 100.0.4896.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"><![CDATA[
+      SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 100.0.4896.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\hector.martin\Desktop\nightwatch-test-project\node_modules\selenium-webdriver\lib\error.js:522:15)
+    at parseHttpResponse (C:\Users\hector.martin\Desktop\nightwatch-test-project\node_modules\selenium-webdriver\lib\http.js:548:13)
+    at Executor.execute (C:\Users\hector.martin\Desktop\nightwatch-test-project\node_modules\selenium-webdriver\lib\http.js:474:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Demo test ecosia.org" classname="ecosia">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
